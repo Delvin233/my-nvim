@@ -5,6 +5,6 @@ return{
 	})
 		-- vim.o.termguicolors = true
 		vim.cmd('colorscheme kanagawa-dragon')
-		vim.api.nvim_set_hl(0, 'SignColumn', { link = 'Normal'})
+		vim.api.nvim_set_hl(0, 'SignColumn', { link = 'Normal' })
 	end
 }

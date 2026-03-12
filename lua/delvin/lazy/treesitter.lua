@@ -18,6 +18,7 @@ return {
 				"lua",
 				"rust",
 				"query",
+				'help',
 			},
 			sync_install = false,
 			auto_install = true,
