@@ -4,7 +4,8 @@ return{
 		require('kanagawa').setup({theme = 'dragon', transparent = true
 	})
 		-- vim.o.termguicolors = true
-		vim.cmd('colorscheme kanagawa-dragon')
-		vim.api.nvim_set_hl(0, 'SignColumn', { link = 'Normal' })
+		-- vim.cmd('colorscheme kanagawa-dragon')
 	end
 }
+
+-- I sacrificed you for rose-pine : )

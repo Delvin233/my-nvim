@@ -42,4 +42,6 @@ autocmd('LspAttach', {
     end
 })
 
-
+vim.cmd('highlight LineNr guibg=bg ctermbg=NONE')
+vim.api.nvim_set_hl(0, 'SignColumn', { bg = 'none' })
+-- vim.cmd('highlight CursorLineNr guibg=NONE ctermbg=NONE')
