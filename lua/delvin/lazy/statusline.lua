@@ -5,8 +5,10 @@ return {
     version = false,
     config = function()
       require('mini.statusline').setup({
-        use_icons = true, -- enables the LazyVim icon look
+        use_icons = true,
+		-- enables the LazyVim icon look
       })
     end,
   },
 }
+
