@@ -1,4 +1,3 @@
--- 1. Load your modular settings
 require('delvin.set')
 require('delvin.remap')
 require('delvin.lazy_init')

@@ -17,6 +17,7 @@ vim.opt.wrap = false
 vim.opt.incsearch = true
 vim.termguicolors = true
 
+vim.opt.swapfile = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 -- vim.opt.clipboard = "unnamedplus"
@@ -30,7 +31,8 @@ vim.opt.timeoutlen = 1000
 vim.opt.scrolloff = 10
 vim.opt.cursorline = true
 
-vim.opt.swapfile = false
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
