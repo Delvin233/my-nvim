@@ -4,7 +4,7 @@ return{
 		require('kanagawa').setup({theme = 'wave', transparent = true
 	})
 		-- vim.o.termguicolors = true
-		vim.cmd('colorscheme kanagawa')
+		-- vim.cmd('colorscheme kanagawa')
 	end
 }
 

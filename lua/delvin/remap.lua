@@ -20,7 +20,7 @@ vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>")
 vim.keymap.set("n", "<C-d>", "<C-d>zz", {desc =  "scroll down and center" })
 vim.keymap.set("n", "<C-n>", "<C-n>zz", {desc =  "scroll up and center" })
 
--- Navigating highlighted text after vap or v-whatever
+-- Navigating highlighted text after vap or v-j or k
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<A-h>", "<gv")
