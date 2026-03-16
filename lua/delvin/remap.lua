@@ -26,5 +26,6 @@ vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<A-h>", "<gv")
 vim.keymap.set("v", "<A-l>", ">gv")
 
--- Deleting buffers
+-- Buffers
 vim.keymap.set('n', '<leader>bd', vim.cmd.bdelete)
+vim.keymap.set('n', '<leader><leader>', vim.cmd.buffers)
